@@ -45,3 +45,45 @@ Make sure you have the following installed on your machine:
 ```bash
 git clone https://github.com/yourusername/task-manager.git
 cd task-manager
+
+
+### Set Up the Back-end
+Navigate to the backend directory:
+
+bash
+Copy code
+cd backend
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Create a .env file in the backend directory and add your MongoDB URI and any other necessary environment variables:
+
+env
+Copy code
+MONGODB_URI=your_mongodb_connection_string
+Start the backend server:
+
+bash
+Copy code
+npm start
+The backend server should now be running on http://localhost:4000.
+
+Set Up the Front-end
+Navigate to the frontend directory:
+
+bash
+Copy code
+cd ../frontend
+Install the dependencies:
+
+bash
+Copy code
+npm install
+Start the front-end development server:
+
+bash
+Copy code
+npm start
+The front-end application should now be running on http://localhost:3000.
